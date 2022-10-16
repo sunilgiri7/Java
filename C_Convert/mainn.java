@@ -1,15 +1,14 @@
-
-class base{
-	base(){
+public class mainn {
+	mainn(){
 		System.out.println("This is constructor");
 	}
-	~base(){
-		System.out.println("This is destructor");
-	}
+	// ~mainn(){
+	// 	System.out.println("This is destructor");
+	// }
 }
 
-public class mainn(){
-	public static void main(String args[]) {
-		base b1 = new base();
+class base{
+	public static void main(String[] args) {
+		mainn b1 = new mainn();
 	}
 }
