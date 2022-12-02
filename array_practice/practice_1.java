@@ -6,6 +6,7 @@ public class practice_1 {
     public static void main(String[] args) {
 
         //// Practice N0_1 ////
+        /* Create an arry of 5 float and create their sum */
 
         /* float [] marks = {10.5f,11.5f,12.5f,13.5f,14.5f,15.5f};
         float s = 0;
@@ -16,6 +17,7 @@ public class practice_1 {
     } */
 
         //// Practice No_2 ////
+        /* WAP weather a given number is present in array or not */
 
         /*float [] marks = {10.5f,11.5f,12.5f,13.5f,14.5f,15.5f};
         float num = 12.5f;
@@ -32,6 +34,7 @@ public class practice_1 {
         } */
 
         //// Practice No_3 ////
+        /* Calculate avg marks of array contain marks of all student in physics using for loop */
 
         /* float [] marks = {10.5f,11.5f,12.5f,13.5f,14.5f,15.5f};
         float sum=0;
@@ -42,7 +45,7 @@ public class practice_1 {
 } */
 
         //// Practice No_4 ////
-
+        /* WAP to add two matrices of 2x3 */
         /* int [][] mat1 = {{2,3,4},
                           {5,6,7}};
         int [][] mat2 = {{2,3,4},
@@ -64,7 +67,8 @@ public class practice_1 {
 }
 } */
 
-        //// Practice No_4 ////
+        //// Practice No_5 ////
+        /* WAP to reverse a string */
 
         /* int [] arr = {1,2,3,4,5};
         int l = arr.length;
@@ -81,7 +85,8 @@ public class practice_1 {
             System.out.println(sum+" is the sum of reverse");
 } */
 
-            //// Practice No_5 ////
+            //// Practice No_6 ////
+            /* WAP to find max element of array */
 
             /* int [] arr = {45,55,666,75,43,23};
             int max = 0;
@@ -93,7 +98,8 @@ public class practice_1 {
             System.out.println("Biggest number in array is:"+max);
 } */
 
-            //// Practice No_6 ////
+            //// Practice No_7 ////
+            /* WAP to find min element of array */
 
             /* int [] arr = {2,34,121,323,5,23};
             int min = arr[0];
@@ -105,7 +111,8 @@ public class practice_1 {
             System.out.println("Minimun in array is:"+min);
 } */
 
-            //// Practice No_7 ////
+            //// Practice No_8 ////
+            /* WAP to find a array is sorted or not */
 
             int [] arr = {1,2,3,4,5,8,7};
             boolean isSorted=true;
