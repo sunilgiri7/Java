@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Prime {
     public static void main(String[] args) {
         int n,m=0,flag=0;

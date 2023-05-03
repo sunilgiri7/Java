@@ -1,5 +1,3 @@
-package array_practice;
-
 import javax.lang.model.element.Element;
 
 public class practice_1 {
@@ -46,7 +44,7 @@ public class practice_1 {
 
         //// Practice No_4 ////
         /* WAP to add two matrices of 2x3 */
-        /* int [][] mat1 = {{2,3,4},
+        int [][] mat1 = {{2,3,4},
                           {5,6,7}};
         int [][] mat2 = {{2,3,4},
                          {5,6,7}};
@@ -64,8 +62,9 @@ public class practice_1 {
                 result[i][j]  = mat1[i][j] + mat2[i][j];
             }
             System.out.println("");
+    }
 }
-} */
+}
 
         //// Practice No_5 ////
         /* WAP to reverse a string */
@@ -114,20 +113,19 @@ public class practice_1 {
             //// Practice No_8 ////
             /* WAP to find a array is sorted or not */
 
-            int [] arr = {1,2,3,4,5,8,7};
-            boolean isSorted=true;
-            for(int i=0; i<=arr.length-2; i++){
-                if(arr[i] > arr[i+1]){
-                    isSorted = false;
-                    break;
-                }
-            }if (isSorted){
-                System.out.println("sorted");
-            }else{
-                System.out.println("Not sorted");
-            }
+//             int [] arr = {1,2,3,4,5,8,7};
+//             boolean isSorted=true;
+//             for(int i=0; i<=arr.length-2; i++){
+//                 if(arr[i] > arr[i+1]){
+//                     isSorted = false;
+//                     break;
+//                 }
+//             }if (isSorted){
+//                 System.out.println("sorted");
+//             }else{
+//                 System.out.println("Not sorted");
+//             }
 
-}
-}
+// }
 
 
